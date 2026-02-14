@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: "Manrope", sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+.section-one{
+    padding: 20px;
+
+    background-color: cadetblue;
+    color: azure;
+}
+.section-one__name{
+    padding-bottom: 10px;
+}
+.section-one__role{
+    padding-bottom: 10px;
+}
+.section-one__contact{
+    text-decoration: none;
+    color: azure;
+    background-color: coral;
+    margin: 10px;
+    padding: 5px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    padding: 20px;
+
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+margin-top: 10px;
+}
+.section-five {
+     background-color: cadetblue;
+    color: azure;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.section-five a{
+    color: black;
+    text-decoration:none;          
+} 
+.section-three__desc,.section-four__desc{
+    list-style: none;
+}
+.section-three{
+    background-color: cornflowerblue;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.section-four{
+    background-color: cornflowerblue;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.section1-contact{
+    padding: 20px;
+
+    background-color: cadetblue;
+    color: azure;
+}
+.section1-contact a{
+    text-decoration: none;
+    color: azure;
+    background-color: coral;
+    margin: 10px;
+    padding: 5px;
+}
+.section1-contact__name,.section1-contact__role{
+padding-bottom: 10px;
+}
+.section5-contact{
+     background-color: cadetblue;
+    color: azure;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.section5-contact a{
+    
+    color: black;
+    text-decoration:none;    
+}
+.section2-contact{
+    margin-top: 20px;
+}
+.section2-contact__name,.section2-contact__email,.section2-contact__title{
+    margin-top: 15px;
+
+}
+
+.section2-contact__nametype,.section2-contact__emailtype{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-style: none;
+    border-bottom : solid black 1px;
+    height: 30px;
+}
+.section2-contact__desc{
+     margin-top: 15px;
+    margin-left: 15px; 
+    border-style: solid black 5px;
+}
+.section2-contact__submit{
+    background-color: azure;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
